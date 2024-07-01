@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.allcontainer {
+    max-width: 1366px;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: rgba(247, 251, 250, 1);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 2px 2px 5px 0px rgb(196, 196, 196);
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.inputcontainer {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.inputcontainer input {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+}
+
+.navLinks a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.walletButton {
+    border: 2px solid black;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 0 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .4s ease;
+}
+
+.walletButton:hover {
+    background-color: black;
+    color: white;
+}
+
+.chiziq {
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: rgb(196, 196, 196);
+}
+
+.curated {
+    background-color: rgba(247, 251, 250, 1);
+}
+
+.FirstPage {
+    width: 100%;
+    height: 683px;
+}
+
+.image-container {
+    width: 50%;
+    height: 100%;
+}
+
+.FirstPageContent {
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.FirstPageContent img {
+    width: 100%;
+}
+
+.FirstPageText {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(219, 255, 115, 1);
+}
+
+.FirstPageNetwork h1 {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+
+.SecondPage {
+    width: 100%;
+    height: 1540px;
+    background-color: rgba(247, 251, 250, 1);
+}
+
+.SecondPageText {
+    padding: 50px;
+    position: relative;
+}
+
+.SecondPageText h1 {
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.SecondPageText p {
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+}
+
+.SecondPageCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    background-color: rgba(225, 226, 226, 1);
+}
+
+
+/* Custom styles */
+.footer {
+    border-top: 2px solid gray;
+    background-color: rgba(247, 251, 250, 1);
+    color: black;
+}
+
+.footer h5 {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.social-media {
+    font-size: 24px;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-media li a {
+    color: black;
+}
+
+.social-media li a:hover {
+    color: #55acee;
+    /* Change color on hover for social icons */
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerlogo {
+    width: 100px;
+    height: 25px;
+    background-color: red;
+}
+
+a:hover {
+    color: rgb(196, 196, 196);
+}
+
+.SecondPageCard {
+    width: 50%;
+    height: 340px;
+    background-color: rgba(225, 226, 226, 1);
+    position: relative;
+    transition: all .3s ease;
+    border: 2px solid rgb(196, 196, 196);
+}
+
+.explore {
+    margin-block: 60px;
+}
+
+.SecondPage span {
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+}
+
+.SecondPageCard:hover {
+    box-shadow: 0px 15px 30px 0px rgba(125, 125, 125, 1);
+    z-index: 2;
+    cursor: pointer;
+    background-color: white;
+}
+
+.SecondPageCard:hover .hexagon {
+    background-color: black;
+    color: white;
+}
+
+.hexagon {
+    width: 30px;
+    height: 35px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    box-shadow: 0px 15px 30px 0px rgba(125, 125, 125, 1);
+    transition: all .3s ease;
+}
+
+.ThirdPage {
+    width: 100%;
+    height: 850px;
+    background-color: black;
+    position: relative;
+}
+
+.ThirdPage .beyond {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    bottom: 100px;
+    right: 80px;
+}
+
+.ThirdPageText {
+    width: 650px;
+    position: absolute;
+    top: 160px;
+    left: 60px;
+}
+
+.twoimages {
+    width: 500px;
+    height: 100px;
+    background-color: red;
+}
+
+.beyondtitle {
+    font-size: 90px;
+    color: white;
+}
+
+.price {
+    margin-top: 70px;
+}
+
+.FourthPage {
+    margin-top: 50px;
+    width: 100%;
+    height: 960px;
+    background-color: rgba(247, 251, 250, 1);
+}
+
+.FourthPage h1 {
+    font-size: 70px;
+    font-weight: bold;
+    width: 400px;
+}
+
+.FourthPage .mySwiper {
+    width: 100%;
+    height: 700px;
+}
+
+.FifthPage {
+    background-color: rgba(185, 169, 251, 1);
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.FifthPageTitle {
+    width: 300px;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.ending {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 625px;
+}
+
+.soon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 625px;
+}
+
+.SixPage {
+    width: 100%;
+    padding: 25px;
+}
+
+.SixPage img {
+    width: 100%;
+    height: 100%;
+}
+
+.SixPage h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.day {
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.Card {
+    width: 1100px;
+    height: 500px;
+}
+
+.cardimg {
+    width: 500px;
+}
+
+.CardText {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 30px;
+    gap: 10px;
+}
+
+.CardText h1 {
+    font-size: 50px;
+    width: 460px;
+    font-weight: bold;
+}
+.CardText p {
+    font-size: 20px;
+    width: 460px;
+}
+.CardText span {
+    font-size: 18px;
+    width: 460px;
+}
